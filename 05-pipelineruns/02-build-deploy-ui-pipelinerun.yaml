@@ -16,7 +16,7 @@ spec:
   - name: deployment-name
     value: vote-ui
   - name: image-destiny-name
-    value: vote-api
+    value: image-registry.openshift-image-registry.svc:5000/rafa-test3/vote-ui
   workspaces: 
   - name: shared-workspace 
     persistentvolumeclaim:
