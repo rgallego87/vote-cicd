@@ -17,3 +17,7 @@ spec:
     value: vote-api
   - name: image-destiny-name
     value: vote-api
+  workspaces: 
+  - name: shared-workspace 
+    persistentvolumeclaim:
+      claimName: pipeline-ws

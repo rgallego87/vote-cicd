@@ -7,7 +7,3 @@ spec:
   params:
   - name: url
     value: git@github.com:rgallego87/rgallego87/vote-ui.git
-  workspaces: 
-  - name: shared-workspace 
-    persistentvolumeclaim:
-      claimName: pipeline-ws
