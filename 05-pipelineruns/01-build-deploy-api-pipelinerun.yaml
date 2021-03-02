@@ -15,3 +15,5 @@ spec:
   params:
   - name: deployment-name
     value: vote-api
+  - name: image-destiny-name
+    value: vote-api
