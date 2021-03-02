@@ -6,4 +6,4 @@ spec:
   type: git
   params:
   - name: url
-    value: git@github.com:rgallego87/rgallego87/vote-ui.git
+    value: git@github.com:rgallego87/vote-ui.git
